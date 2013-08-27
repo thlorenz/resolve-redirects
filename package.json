@@ -1,6 +1,6 @@
 {
   "name": "resolve-redirects",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Resolves key/value pair redirects by following each redirect as far as possible.",
   "main": "index.js",
   "scripts": {
