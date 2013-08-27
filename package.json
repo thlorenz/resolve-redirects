@@ -1,30 +1,40 @@
 {
-    "name" : "resolve-redirects",
-    "version" : "0.0.0",
-    "description" : "Resolves key/value pair redirects by following each redirect as far as possible.",
-    "main" : "index.js",
-    "scripts" : {
-      "test" :  "tap test/*.js"
-    },
-    "repository" : {
-      "type" : "git",
-      "url" : "git://github.com/thlorenz/resolve-redirects.git"
-    },
-    "homepage" : "https://github.com/thlorenz/resolve-redirects",
-    "dependencies" : {
-    },
-    "devDependencies" : {
-      "tap": "~0.4.3"
-    },
-    "keywords": [ "resolve", "redirects", "key", "value", "key/value", "tree", "follow", "reduce" ],
-    "author" : {
-      "name" : "Thorsten Lorenz",
-      "email" : "thlorenz@gmx.de",
-      "url" : "http://thlorenz.com"
-    },
-    "license" : {
-      "type": "MIT",
-      "url": "https://github.com/thlorenz/resolve-redirects/blob/master/LICENSE"
-    },
-    "engine" : { "node" : ">=0.6" }
+  "name": "resolve-redirects",
+  "version": "0.1.0",
+  "description": "Resolves key/value pair redirects by following each redirect as far as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/resolve-redirects.git"
+  },
+  "homepage": "https://github.com/thlorenz/resolve-redirects",
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.3"
+  },
+  "keywords": [
+    "resolve",
+    "redirects",
+    "key",
+    "value",
+    "key/value",
+    "tree",
+    "follow",
+    "reduce"
+  ],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/resolve-redirects/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=0.6"
+  }
 }
